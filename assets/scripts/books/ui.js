@@ -17,8 +17,18 @@ const onDeleteSuccess = function () {
   console.log('Book was successfully deleted.');
 };
 
+const onPatchSuccess = function () {
+  console.log('Book was successfully edited.');
+};
+
+const onPostSuccess = function () {
+  console.log('Book was successfully posted.');
+};
+
 module.exports = {
   onSuccess,
   onError,
   onDeleteSuccess,
+  onPatchSuccess,
+  onPostSuccess
 };
